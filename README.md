@@ -28,5 +28,6 @@ This project scaffolded using [Vite](https://vitejs.dev/), and enhance to more m
 - Protected routes
 - Basic Authentication with Login and Logout
 - Automatic login when user reload the page (Using local storage)    
+- Handled 404 case    
 
 
