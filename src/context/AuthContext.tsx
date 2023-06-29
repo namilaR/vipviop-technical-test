@@ -1,5 +1,4 @@
-import { createContext, ReactNode, useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { createContext, ReactNode, useState } from 'react'
 import useAuth from '../hooks/useAuth'
 
 type Props = {

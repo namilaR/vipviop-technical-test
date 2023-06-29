@@ -1,6 +1,5 @@
 import { AppBar, Box, Button, MenuItem, Typography } from '@mui/material'
 import React, { useContext } from 'react'
-import { red, grey } from '@mui/material/colors'
 import { AuthContext } from '../../context/AuthContext'
 import { useNavigate } from 'react-router-dom'
 

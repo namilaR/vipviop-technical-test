@@ -7,11 +7,10 @@ import {
   TextField,
   Typography,
 } from '@mui/material'
-import React, { useContext, useEffect, useState } from 'react'
-import { Field, Form, FormRenderProps } from 'react-final-form'
-import { red, grey } from '@mui/material/colors'
+import { useContext, useEffect, useState } from 'react'
+import { Field, Form } from 'react-final-form'
+import { grey } from '@mui/material/colors'
 import { AuthContext } from '../../context/AuthContext'
-import { redirect } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 
 const index = () => {

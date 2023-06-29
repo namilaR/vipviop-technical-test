@@ -3,7 +3,6 @@ import { Navigate } from 'react-router-dom'
 import { AuthContext } from '../context/AuthContext'
 
 type PropTypes = {
-  //   auth: IUser
   children?: ReactNode
 }
 
